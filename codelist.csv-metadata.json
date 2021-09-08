@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw",
+        {
+            "@language": "en"
+        }
+    ],
+    "tables": [
+        {
+            "url": "codelist.csv",
+            "tableSchema": {
+                "columns": [
+                    {
+                        "name": "label",
+                        "titles": "label",
+                        "datatype": "string",
+                        "propertyUrl": "rdfs:label"
+                    },
+                    {
+                        "name": "uri",
+                        "titles": "uri",
+                        "datatype": "string",
+                        "propertyUrl": "http://www.w3.org/2002/07/owl#sameAs",
+                        "valueUrl": "{+uri}"
+                    },
+                    {
+                        "virtual": true,
+                        "propertyUrl": "rdf:type",
+                        "valueUrl": "skos:Concept"
+                    },
+                    {
+                        "virtual": true,
+                        "propertyUrl": "skos:inScheme",
+                        "valueUrl": "http://data.gov.uk/my-statistics/codelist/country"
+                    }
+                ],
+                "primaryKey": [
+                    "label"
+                ],
+                "aboutUrl": "http://data.gov.uk/my-statistics/country/{label}"
+            }
+        }
+    ]
+}

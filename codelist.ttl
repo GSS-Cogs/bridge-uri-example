@@ -1,0 +1,20 @@
+
+<http://data.gov.uk/my-statistics/country/A> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "A";
+  <http://www.w3.org/2002/07/owl#sameAs> <http://example.org/A>;
+  <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.gov.uk/my-statistics/codelist/country> .
+
+<http://data.gov.uk/my-statistics/country/B> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "B";
+  <http://www.w3.org/2002/07/owl#sameAs> <http://example.org/B>;
+  <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.gov.uk/my-statistics/codelist/country> .
+
+<http://data.gov.uk/my-statistics/country/C> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "C";
+  <http://www.w3.org/2002/07/owl#sameAs> <http://example.org/C>;
+  <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.gov.uk/my-statistics/codelist/country> .
+
+<http://data.gov.uk/my-statistics/country/Other> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Other";
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.gov.uk/my-statistics/country/other>;
+  <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.gov.uk/my-statistics/codelist/country> .

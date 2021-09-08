@@ -1,0 +1,34 @@
+@prefix ns1: <http://purl.org/linked-data/sdmx/2009/dimension#> .
+@prefix ns2: <http://data.gov.uk/measure/> .
+@prefix ns3: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.gov.uk/my-statistics/obs/A> ns2:count 1e+02 ;
+    ns1:refArea <http://example.org/A> .
+
+<http://data.gov.uk/my-statistics/obs/B> ns2:count 2e+02 ;
+    ns1:refArea <http://example.org/B> .
+
+<http://data.gov.uk/my-statistics/obs/C> ns2:count 3e+02 ;
+    ns1:refArea <http://example.org/C> .
+
+<http://data.gov.uk/my-statistics/obs/Other> ns2:count 4e+02 ;
+    ns1:refArea <http://data.gov.uk/my-statistics/country/other> .
+
+<http://data.gov.uk/my-statistics/country/other> a ns3:Concept ;
+    rdfs:label "Other" ;
+    ns3:inScheme <http://data.gov.uk/my-statistics/codelist/country> .
+
+<http://example.org/A> a ns3:Concept ;
+    rdfs:label "A" ;
+    ns3:inScheme <http://data.gov.uk/my-statistics/codelist/country> .
+
+<http://example.org/B> a ns3:Concept ;
+    rdfs:label "B" ;
+    ns3:inScheme <http://data.gov.uk/my-statistics/codelist/country> .
+
+<http://example.org/C> a ns3:Concept ;
+    rdfs:label "C" ;
+    ns3:inScheme <http://data.gov.uk/my-statistics/codelist/country> .
+

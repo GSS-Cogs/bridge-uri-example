@@ -1,0 +1,12 @@
+
+<http://data.gov.uk/my-statistics/obs/A> <http://data.gov.uk/measure/count> 1.0E2;
+  <http://purl.org/linked-data/sdmx/2009/dimension#refArea> <http://data.gov.uk/my-statistics/country/A> .
+
+<http://data.gov.uk/my-statistics/obs/B> <http://data.gov.uk/measure/count> 2.0E2;
+  <http://purl.org/linked-data/sdmx/2009/dimension#refArea> <http://data.gov.uk/my-statistics/country/B> .
+
+<http://data.gov.uk/my-statistics/obs/C> <http://data.gov.uk/measure/count> 3.0E2;
+  <http://purl.org/linked-data/sdmx/2009/dimension#refArea> <http://data.gov.uk/my-statistics/country/C> .
+
+<http://data.gov.uk/my-statistics/obs/Other> <http://data.gov.uk/measure/count> 4.0E2;
+  <http://purl.org/linked-data/sdmx/2009/dimension#refArea> <http://data.gov.uk/my-statistics/country/Other> .
